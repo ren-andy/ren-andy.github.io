@@ -31,6 +31,12 @@ li {
   letter-spacing: 1px;
 }
 
+.emoji-like-img {
+  width:16px;
+  display:inline-block;
+  vertical-align:middle
+}
+
 #footer {
   font-size: 11px;
   line-height: 2;
