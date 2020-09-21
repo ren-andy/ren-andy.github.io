@@ -8,6 +8,12 @@ h1 {
   text-align: center;
 }
 
+.navli {
+  font-size: 40px; 
+  display: inline;
+  padding: 14px 16px;
+}
+
 p,
 li {
   font-weight: 400;
@@ -46,11 +52,6 @@ html {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.navli {
-  display: inline;
-  padding: 14px 16px;
 }
 
 body {
