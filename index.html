@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>*{box-sizing: border-box;}</style>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=1000">
-    <link rel="icon" href="./assets/favicon.png" sizes="16x16" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/new_favicon.png" sizes="16x16" type="image/png">
     <title>Andy Ren</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -16,68 +17,51 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <img
-    src="assets/pfp_2020.jpeg"
-    alt="Andy Ren."
-    id="pfp"
-     />
-    <h1>Andy Ren &#x1F4BE</h1>
-    <ul id="navbar">
-        <li class="navli"><a href="https://linkedin.com/in/andy-ren" title="Linkedin"> <i class="fab fa-linkedin"></i></a></li>
-        <li class="navli"><a href="https://github.com/ren-andy" title="Github"><i class="fab fa-github"></i></a></li>
-        <li class="navli"><a href="./Resume_3B_v7.pdf" title="Resume"><i class="fas fa-file-pdf"></i></a></li>
-      </ul>
-    <p>
-      Hi! &#x1F44B, I'm Andy, and I currently study Computer Engineering at the University of
-      Waterloo. <br />
-      Some of my interests include software and embedded development, RTL hardware design and verification, Internet of Things, renewable energy, and
-      medtech.
-    </p>
-
-    <p> I'm current looking for a Winter 2022 internship in software development, embedded systems, FPGA programming and firmware engineering</p>
-    <!-- <p>I'm currently an Embedded Software Intern @ <a href="https://nuvationenergy.com">Nuvation Energy</a>, developing new and efficient ways to store and utilize energy &#x1F50B</p> -->
-    <!-- <p>I'm currently looking for a Winter 2021 internship in software development, embedded systems, and signal processing.</p> -->
-    
-    <!-- <hr> -->
-
-    <p>
-      When I have free time (not spent studying), I enjoy lifting <a href="./assets/deadlift.mp4" title="Spicy deadlift">weights</a> &#x1F3CB&#xFE0F, 
-      running, reading history, watching sports, and occasionally
-      jamming on the piano. Just to name a few... Oh! and I occasionally build software projects too, if I think of a nifty idea &#x1F468&#x200D&#x1F4BB
-    </p>
+    <p></p>
+    <div class="row">
+      <div class="column left">
+        <img
+        src="assets/pfp_2020.jpeg"
+        alt="Andy Ren"
+        id="pfp"
+         />
+        <ul id="navbar">
+            <li class="navli"><a href="https://linkedin.com/in/andy-ren" title="Linkedin"> <i class="fab fa-linkedin"></i></a></li>
+            <li class="navli"><a href="https://github.com/ren-andy" title="Github"><i class="fab fa-github"></i></a></li>
+            <li class="navli"><a href="./Resume_3B_v9.pdf" title="Resume"><i class="fas fa-file-pdf"></i></a></li>
+          </ul>
+      </div>
+      <div class="column right">
+        <h1>Hi! I'm Andy.&#x1F44B</h1>
+      <p>
+        I currently study <a href="https://uwaterloo.ca/electrical-computer-engineering/">Computer Engineering</a> at the University of
+        Waterloo. I love solving complex problems and building things that have a positive, meaningful impact for the world around me.
+      </p>
+        
+      <p>Some of my interests include software and firmware systems development, RTL hardware design and verification, Internet of Things, and
+        medtech.
+      </p>
+      <hr>
   
-    <p>Here's some of my previous experiences &#x1f4bb:</p>
-    <ul>
-      <li>Jan - Apr 2021 - Embedded Software Intern @ <a href="https://nuvationenergy.com">Nuvation Energy</a> &#x1F50B</li>
-      <li>Sept - Dec 2019 - Software Developer Intern @ <a href="https://virtamove.com">VirtaMove</a> &#x2601&#xFE0F</li>
-      <li>Jan - Apr 2019 - Web Analyst @ <a href="https://agr.gc.ca/">Agriculture and Agri-Food Canada</a> &#x1F341</li>
-      <li>Aug 2017 - Jul 2018 - Student Senator @ <a href="https://OCDSB.ca/">OCDSB</a></li>
-    </ul>
-    <p>You can find a complete description of my experience in my resume <a href="./Resume_3B_v7.pdf">here</a>.</p>
-
-    <p>Here's some projects I've built:</p>
-    <ul>
-        <li> Systolic Array - Matrix multilpication module written in Verilog for a Xilinx FPGA &#x1F4BD</li>
-        <li> RTX Kernel - Real time OS kernel written in C &#x1F5A5&#xFE0F</li>
-        <li><a href="https://github.com/ren-andy/home-monitor">home-monitor</a> - Small sensor-based embedded system created using a RPi and C++ &#x1F3E0</li>
-        <li><a href="https://github.com/ren-andy/ht_double_hashing">ht_double_hashing</a>: - Hash table in C utilizing a double hashing algorithm &#x1F4C1</li>
-        <li><a href="https://github.com/ren-andy/cuhacking-app">CareerCounsel</a>: - Job posting skills and qualification aggregator &#x1F4BC</li>
-    </ul>
-    <p>In the future, I hope to be able to develop and realize innovative ideas that can positively impact the lives of others.</p>
-
-    <p>Here's some of my school extracurriculars <img src="./assets/waterloologo.png" class="emoji-like-img" />:</p>
-    <ul>
-        <li>May 2021 - Present - Student Councillor @ <a href="https://wusa.ca">WUSA</a> &#x1F3DB&#xFE0F</li>
-        <li>May 2020 - Jan 2021 - VP Academic @ <a href="https://ecesociety.uwaterloo.ca">ECE Society</a> &#x26A1</li>
-        <li>Oct 2019 - May 2020 - Student Councillor @ <a href="https://wusa.ca">WUSA</a> &#x1F3DB&#xFE0F</li>
-    </ul>
-    <p>
-      I'm a firm believer in student advocacy. Since I was in high school, 
-      I've always been involved in advocating for student voice and promoting the interests of students. 
-      I think this is important to ensure that students have a say in how their education is delivered. 
-    </p>
-
-    <p>Let's chat! Feel free to contact me on <a href="https://linkedin.com/in/andy-ren">Linkedin</a> or at andy[dot]ren[at]uwaterloo.ca</p>
+      <p>I'm an incoming Platforms Engineering Intern @ <a href="https://www.arista.com/en/">Arista Networks</a> &#x1F4F6, starting next winter, and an incoming Software Engineering Intern, 
+          Embedded Linux @ <a href="https://www.getcruise.com/">Cruise</a> &#x1F699, starting next fall.</p>
+      <p>In the past, I've worked on firmware @ <a href="https://nuvationenergy.com">Nuvation Energy</a>, software development and test automation @ <a href="https://virtamove.com">VirtaMove</a>, 
+          and for academic and personal purposes, I've built projects ranging from synthesizable hardware and an RTX kernel, to a home monitor embedded system and job posting aggregator. &#x1F468&#x200D&#x1F4BB</p>
+      <p> You can read more about my experience, projects, and extracurriculars on this <a href="./about.html">page</a> or on my <a href="./Resume_3B_v9.pdf">resume</a>.</p>
+      
+      <!-- <hr> -->
+  
+      <hr>
+  
+      <p>
+        When I have free time (not spent studying), I enjoy lifting <a href="./assets/deadlift.mp4" title="Spicy deadlift">weights</a> &#x1F3CB&#xFE0F, 
+        running, playing sports, reading history, and occasionally
+        jamming on the piano &#x1F3B9. <!--&#x1F468&#x200D&#x1F4BB -->
+      </p>
+  
+      <p>Let's chat! Feel free to contact me on <a href="https://linkedin.com/in/andy-ren">Linkedin</a> or at <a href="mailto:andy.ren@uwaterloo.ca">andy[dot]ren[at]uwaterloo.ca</a>.</p>
+      </div>
+    </div>
 
   </body>
 
