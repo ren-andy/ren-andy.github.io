@@ -5,7 +5,7 @@ html {
 
 h1 {
   font-size: 60px;
-  text-align: center;
+  text-align: left;
 }
 
 .navli {
@@ -55,7 +55,7 @@ html {
 }
 
 body {
-  width: 700px;
+  width: 1110px;
   margin: 0 auto;
   /*background-color: #FF9500*/
   padding: 0 20px 40px 20px;
@@ -78,14 +78,52 @@ h1 {
 }
 
 footer {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #pfp {
   width: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+  padding-right: 20px;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Allow screen responsiveness when browser is resized */
+@media screen and (max-width : 1000px) {
+  .column {
+    width: 100%;
+  }
+
+  /* resized view should show centered header */
+  h1 {
+    text-align: center; 
+  }
+
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
