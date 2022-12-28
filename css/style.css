@@ -1,11 +1,17 @@
 html {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: 'PT Serif', serif;
 }
 
 h1 {
   font-size: 60px;
   text-align: left;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left; 
 }
 
 .navli {
